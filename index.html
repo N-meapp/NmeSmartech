@@ -1,0 +1,822 @@
+<!DOCTYPE html>
+
+
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+    <link rel="shortcut icon" href="images/app/nme-favicon.png" />
+    <title>N-ME smartech</title>
+
+    <!-- CSS FILES --> 
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+    
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100;300;400;700;900&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap"
+      rel="stylesheet"
+    />
+
+    <link href="css/bootstrap.min.css" rel="stylesheet" />
+    <link href="css/bootstrap-icons.css" rel="stylesheet" />
+
+    <link rel="stylesheet" href="css/magnific-popup.css" />
+
+    <link href="css/aos.css" rel="stylesheet" />
+    <link href="css/index.css" rel="stylesheet" />
+
+    <script src="js/index.js"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+
+    <!-- <link href="css/style.css" rel="stylesheet"> -->
+    <script type="text/javascript">
+      (function (c, l, a, r, i, t, y) {
+        c[a] =
+          c[a] ||
+          function () {
+            (c[a].q = c[a].q || []).push(arguments);
+          };
+        t = l.createElement(r);
+        t.async = 1;
+        t.src = "https://www.clarity.ms/tag/" + i;
+        y = l.getElementsByTagName(r)[0];
+        y.parentNode.insertBefore(t, y);
+      })(window, document, "clarity", "script", "ogw8jev0s2");
+    </script>
+  </head>
+
+  <body>
+    <main>
+      <section class="hero" id="hero">
+
+        <div onclick="handleExplore()" class="explore-btn pulse visible-light">
+          Explore
+        </div>
+
+        <div class="heroText">
+          <h1
+            class="text-white first visible-light mb-lg-4"
+            data-aos="zoom-in"
+            data-aos-delay="800"
+          >
+            Future - prove your business with our
+          </h1>
+          <h1
+            class="second mb-lg-4 number-bold"
+            id="360-changing"
+            data-aos="zoom-in"
+            data-aos-delay="800"
+          >
+            360°
+          </h1>
+          <h1
+            class="text-white first visible-light mb-lg-4"
+            data-aos="zoom-in"
+            data-aos-delay="800"
+          >
+            solutions <span class="text-success">.</span>
+          </h1>
+
+          <p
+            class="text-secondary-white-color text-center"
+            data-aos="fade-up"
+            data-aos-delay="1000"
+          >
+            Your vision, Our expertise
+            <a id="contact-link-home" href="contact.html"
+              ><strong class="custom-underline">connect</strong></a
+            >
+          </p>
+        </div>
+
+        <div class="videoWrapper">
+          <video
+            autoplay=""
+            loop=""
+            muted=""
+            class="custom-video"
+            poster="videos/792bd98f3e617786c850493560e11c45.jpg"
+          >
+            <source src="videos/landing-video.mp4" type="video/mp4" />
+
+            Your browser does not support the video tag.
+          </video>
+        </div>
+
+        <div class="overlay"></div>
+      </section>
+
+      <nav class="navbar navbar-expand-lg bg-light shadow-lg">
+        <div class="container">
+          <a class="navbar-brand" href="index.html">
+            <!-- <strong>N-ME SMARTECH</strong> -->
+            <img src="images/app/nme_app.png" class="img-logoo" alt="" />
+          </a>
+
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav mx-auto">
+              <li class="nav-item active">
+                <a class="nav-link visible-regular active-nav" href="index.html"
+                  >Home</a
+                >
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link visible-regular" href="service.html"
+                  >Services</a
+                >
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link visible-regular" href="about.html">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link visible-regular" href="career.html"
+                  >Career</a
+                >
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link visible-regular" href="contact.html"
+                  >Contact</a
+                >
+              </li>
+
+              <li class="">
+                <a class="button-57" href="tel:9048244763"
+                  ><span class="text">Call Now</span
+                  ><span>Get in touch</span></a
+                >
+                <!-- <button class="button-57" role="button"></button> -->
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+      <section class="section-padding about pb-0" id="about">
+        <div class="container mb-5 about-background pb-lg-5">
+          <div class="row">
+            <div class="col-12 d-flex gap-2">
+              <!-- <img src="images/services-left-dec.png" alt=""> -->
+              <h2
+              class="mb-3 home-page-title visible-regular text-gray"
+              data-aos="fade-up"
+            >
+            Let us create
+              
+            </h2>
+            <div>
+              <h2 id="idea-id"
+              class="mb-3 home-page-title visible-regular let-us-text-hilight"
+              data-aos="fade-up"
+            >
+            ideas
+            </h2><h2 id="reality-id"
+            class="mb-3 home-page-title visible-regular let-us-text-hilight"
+            data-aos="fade-up"
+          >
+          reality
+          </h2>
+            </div>
+             
+             
+
+
+
+            </div>
+
+            <div class="col-lg-6 col-12 mt-3 mb-lg-5">
+              <p
+                class="let-us-text visible-regular"
+                data-aos="fade-up"
+                data-aos-delay="300"
+              >
+                At N-Me Smartech, we are committed to bridging the gap between
+                advanced technology and practical business requirements. Our
+                services extend beyond conventional IT solutions, as we
+                prioritize understanding your organizational goals, identifying
+                opportunitiesand delivering bespoke strategies tailored to
+                your unique needs.
+              </p>
+            </div>
+
+            <div class="col-lg-6 col-12 mt-lg-3 mb-lg-5 side-icon">
+              <p
+                class="let-us-text visible-regular"
+                data-aos="fade-up"
+                data-aos-delay="500"
+              >
+                Serving as a dedicated IT partner, we ensure seamless
+                integration of technology with your business vision, fostering a
+                culture of innovation and sustainable growth. By leveraging our
+                expertise and forward-thinking approach, we empower
+                organizations to adapt, exceland achieve enduring success in
+                an increasingly dynamic digital environment.  
+              </p>
+              <!-- <span class="let-us-text-running-text">Partner with us to
+                turn ideas into impactful realities.</span> -->
+            </div>
+          </div>
+        </div>
+
+        <div class="container-fluid">
+          <div class="row">
+            <!-- <div class="col-lg-6 col-12 p-0 bg-dark">      
+                            <img src="images/logo final_page-0001.jpg" class="img-fluid about-image" alt="">
+                            <div class="d-flex flex-column flex-wrap justify-content-center h-100 py-5 px-4 pt-lg-4 pb-lg-0">
+                                <h3 class="text-white mb-3 visible-light" data-aos="fade-up">Our Premier Endeavor.</h3>
+
+                                <p class="text-secondary-white-color visible-light" data-aos="fade-up">One Click, Infinite Possibilities</p>
+
+                                <div class="mt-3 custom-links">
+                                    
+                                    <a href="https://www.nmeapp.in/" class="text-white custom-link explore-btn-2" data-aos="zoom-in" data-aos-delay="100">Explore More.</a>
+
+                                </div>
+
+                            </div>
+                        </div> -->
+
+            <!-- <div class="col-lg-3 col-12 bg-dark divider">  
+                            <div class="d-flex flex-column flex-wrap justify-content-center h-100 py-5 px-4 pt-lg-4 pb-lg-0">
+                                <h3 class="text-white mb-3 visible-light" data-aos="fade-up">Our Premier Endeavor.</h3>
+
+                                <p class="text-secondary-white-color visible-light" data-aos="fade-up">One Click, Infinite Possibilities</p>
+
+                                <div class="mt-3 custom-links">
+                                    
+                                    <a href="https://www.nmeapp.in/" class="text-white custom-link explore-btn-2" data-aos="zoom-in" data-aos-delay="100">Explore More.</a>
+
+                                </div>
+
+                            </div>
+                        </div> -->
+
+            <!-- <div class="col-lg-6 col-12 p-0">  
+                            <section id="myCarousel" class="carousel slide carousel-fade" data-bs-ride="carousel">
+                                <div class="carousel-inner">
+                                    
+
+                                    <div class="carousel-item active">
+                                        <img src="images/WhatsApp Image 2024-09-26 at 16.42.38_736cd0c4.jpg" class="img-fluid team-image" alt="">
+
+                                        <div class="team-thumb bg-primary">
+                                            <h3 class="text-white mb-0">N-me Launching</h3>
+
+                                            <p class="text-secondary-white-color mb-0">Launched in February 2022</p>
+                                        </div>
+                                    </div>
+
+                                    <div class="carousel-item">
+                                        <img src="images/app/WhatsApp Image 2024-09-27 at 10.55.13_68e2f183.jpg" class="img-fluid team-image" alt="">
+
+                                        <div class="team-thumb bg-success">
+                                            <h3 class="text-white mb-0">N-me App</h3>
+
+                                            <p class="text-secondary-white-color mb-0">Launched in February 2022</p>
+                                        </div>
+                                    </div>
+
+                                    <div class="carousel-item">
+                                        <img src="images/app/iPhone 14 Pro Mockup 3.png" class="img-fluid team-image" alt="">
+
+                                        <div class="team-thumb bg-info">
+                                            <h3 class="text-white mb-0">N-me App</h3>
+
+                                            <p class="text-secondary-white-color mb-0">App Launching</p>
+                                        </div>
+                                    </div>
+
+                                    <div class="carousel-item">
+                                        <img src="images/app/app1.jpg" class="img-fluid team-image" alt="">
+
+                                        <div class="team-thumb bg-danger">
+                                            <h3 class="text-white mb-0">N-me App</h3>
+
+                                            <p class="text-secondary-white-color mb-0">App Launching</p>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
+                                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+
+                                      <span class="visually-hidden">Previous</span>
+                                </button>
+
+                                <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
+                                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+
+                                      <span class="visually-hidden">Next</span>
+                                </button>
+                            </section>
+
+                        </div> -->
+          </div>
+        </div>
+
+        <div class="lauching-section p-0">
+          <div class="p-0 lauching-sec-1">
+            <div class="lauching-sec-logo">
+              <img
+                src="images/logo final_page-0001.jpg"
+                class="about-image"
+                alt=""
+              />
+            </div>
+            <div class="lauching-sec-description">
+              <div
+                class="d-flex flex-column flex-wrap justify-content-center align-content h-100 py-5 px-4 pt-lg-4 pb-lg-0"
+              >
+                <h3 class="text-white mb-3 visible-light" data-aos="fade-up">
+                  Our Premier Endeavor.
+                </h3>
+
+                <p
+                  class="text-secondary-white-color visible-light"
+                  data-aos="fade-up"
+                >
+                  One Click, Infinite Possibilities
+                </p>
+
+                <div class="mt-3 custom-links">
+                  <a
+                    href="https://www.nmeapp.in/"
+                    class="text-white custom-link explore-btn-2"
+                    data-aos="zoom-in"
+                    data-aos-delay="100"
+                    >Explore More.</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="lauching-sec-2">
+            <section
+              id="myCarousel"
+              class="carousel slide carousel-fade"
+              data-bs-ride="carousel"
+            >
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img
+                    src="images/WhatsApp Image 2024-09-26 at 16.42.38_736cd0c4.jpg"
+                    class="img-fluid team-image"
+                    alt=""
+                  />
+
+                  <div class="team-thumb bg-first-slide">
+                    <h3 class="text-white mb-0 team-thumb-text">
+                      N-me Launching
+                    </h3>
+
+                    <p class="text-secondary-white-color mb-0">
+                      Launched in February 2022
+                    </p>
+                  </div>
+                </div>
+
+                <div class="carousel-item">
+                  <img
+                    src="images/app/mockup-card.jpg"
+                    class="img-fluid team-image"
+                    alt=""
+                  />
+
+                  <div class="team-thumb bg-second-slide">
+                    <h3 class="text-white mb-0 team-thumb-text">N-me App</h3>
+
+                    <p class="text-secondary-white-color mb-0">
+                      Launched in February 2022
+                    </p>
+                  </div>
+                </div>
+
+                <div class="carousel-item">
+                  <img
+                    src="images/app/iPhone 14 Pro Mockup 31.png"
+                    class="img-fluid team-image"
+                    alt=""
+                  />
+
+                  <div class="team-thumb bg-third-slide">
+                    <h3 class="text-white mb-0 team-thumb-text">N-me App</h3>
+
+                    <p class="text-secondary-white-color mb-0">App Launching</p>
+                  </div>
+                </div>
+
+                <div class="carousel-item">
+                  <img
+                    src="images/app/app1.jpg"
+                    class="img-fluid team-image"
+                    alt=""
+                  />
+
+                  <div class="team-thumb bg-fourth-slide">
+                    <h3 class="text-white mb-0 team-thumb-text">N-me App</h3>
+
+                    <p class="text-secondary-white-color mb-0">App Launching</p>
+                  </div>
+                </div>
+              </div>
+
+              <button
+                class="carousel-control-prev"
+                type="button"
+                data-bs-target="#myCarousel"
+                data-bs-slide="prev"
+              >
+                <span
+                  class="carousel-control-prev-icon"
+                  aria-hidden="true"
+                ></span>
+
+                <span class="visually-hidden">Previous</span>
+              </button>
+
+              <button
+                class="carousel-control-next"
+                type="button"
+                data-bs-target="#myCarousel"
+                data-bs-slide="next"
+              >
+                <span
+                  class="carousel-control-next-icon"
+                  aria-hidden="true"
+                ></span>
+
+                <span class="visually-hidden">Next</span>
+              </button>
+            </section>
+          </div>
+        </div>
+      </section>
+
+      <section class="section-padding dot-bg" id="portfolio">
+        <div class="container">
+          <div class="row">
+            <div class="col-12 mb-5">
+              <h2 class="mb-2 text-center visible-regular" data-aos="fade-up">
+                What we <span class="text-gray">do</span>
+              </h2>
+              <span class="text-center text-gray mb-4 visible-light"
+                ><p class="text-center">
+                  We bring your idea to life on time and on budget
+                </p></span
+              >
+            </div>
+            <div class="side-icon1" data-aos="fade-up"></div>
+            <div class="col-lg-6 col-12">
+              <div class="portfolio-thumb mb-5" data-aos="fade-up">
+                <a
+                  href="images/homepage-services/web and app development.png"
+                  class="media-1 image-popup"
+                >
+                  <img
+                    src="images/homepage-services/web and app development.png"
+                    class="img-fluid portfolio-image"
+                    alt=""
+                  />
+
+                  <div class="media-1-content">
+                    <h2>Web Designing & Development</h2>
+                    <span class="category">
+                      Web design and development are vital for building a strong
+                      online presence. At N-Me, our expert developers create
+                      responsive, user-friendly websites that enhance customer
+                      experience, foster trustand boost conversions by
+                      ensuring seamless access to information, productsand
+                      services.
+                    </span>
+                  </div>
+
+                  <div class="portfolio-info">
+                    <h4 class="portfolio-title visible-regular mb-0">
+                      Web & App Development<span class="text-danger">.</span>
+                    </h4>
+                    <p class="text-info">Static, Dynamic & E-commerce</p>
+                  </div>
+                </a>
+              </div>
+
+              <div class="portfolio-thumb" data-aos="fade-up">
+                <a
+                  href="images/homepage-services/digital marketing.png"
+                  class="media-1 image-popup"
+                >
+                  <img
+                    src="images/homepage-services/digital marketing.png"
+                    class="img-fluid portfolio-image"
+                    alt=""
+                  />
+
+                  <div class="media-1-content">
+                    <h2>Digital Marketing</h2>
+                    <span class="category">
+                      Digital marketing connects businesses with wider
+                      audiences, engages clientsand fosters relationships. At
+                      N-Me, we create tailored strategies, enabling small and
+                      medium enterprises to track performance, optimize
+                      campaignsand expand their reach globally with measurable
+                      outcomes.
+                    </span>
+                  </div>
+
+                  <div class="portfolio-info">
+                    <h4 class="portfolio-title mb-0 visible-regular">
+                      Digital Marketing<span class="text-success">.</span>
+                    </h4>
+                    <p class="text-warning">
+                      SEO, SMO, Google ADS & Email Marketing
+                    </p>
+                  </div>
+                </a>
+              </div>
+            </div>
+
+            <div class="col-lg-6 col-12">
+              <div class="portfolio-thumb mt-5 mt-lg-0 mb-5" data-aos="fade-up">
+                <a
+                  href="images/homepage-services/graphic designing.png"
+                  class="media-1 image-popup"
+                >
+                  <img
+                    src="images/homepage-services/graphic designing.png"
+                    class="img-fluid portfolio-image"
+                    alt=""
+                  />
+
+                  <div class="media-1-content">
+                    <h2>Designing & Branding</h2>
+                    <span class="category">
+                      Our creative team brings your brand to life with designs
+                      that truly connect with people. Whether it's crafting a
+                      unique logo, designing engaging brochures, creating
+                      scroll-stopping social media visuals, or shaping a
+                      complete brand identity, we ensure your message not only
+                      stands out but also resonates deeply with your audience.
+                    </span>
+                  </div>
+
+                  <div class="portfolio-info">
+                    <h4 class="portfolio-title mb-0 visible-regular">
+                      Designing & Branding<span class="text-info">.</span>
+                    </h4>
+                    <p class="text-danger">Logo, Ui Design & Branding</p>
+                  </div>
+                </a>
+              </div>
+
+              <div class="portfolio-thumb" data-aos="fade-up">
+                <a
+                  href="images/homepage-services/animation.jpg"
+                  class="media-1 image-popup"
+                >
+                  <img
+                    src="images/homepage-services/animation.jpg"
+                    class="img-fluid portfolio-image"
+                    alt=""
+                  />
+
+                  <div class="media-1-content">
+                    <h2>Media & Animation</h2>
+                    <span class="category">
+                      Bring your ideas to life with captivating visuals and
+                      dynamic storytelling. From animated explainer videos and
+                      motion graphics to 3D animations and interactive content,
+                      we create media that not only grabs attention but leaves a
+                      lasting impact. Whether for branding, marketing or
+                      education, we ensure your message stands out in a visually
+                      engaging way.
+                    </span>
+                  </div>
+
+                  <div class="portfolio-info">
+                    <h4 class="portfolio-title mb-0 visible-regular">
+                      Animation<span class="text-warning">.</span>
+                    </h4>
+
+                    <p class="text-success">Motion Graphics</p>
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="portfolio-side-img" data-aos=""></div>
+      </section>
+
+      <section class="caroseaal">
+        <!-- Services Start -->
+        <div class="bg-service">
+          <div class="bg-over py-5">
+            <div class="container py-5">
+              <div class="row align-items-center">
+                <div class="col-lg-5 feature-text">
+                  <h6
+                    class="text-secondary font-weight-semi-bold visible-bold mb-3"
+                  >
+                    Our Features
+                  </h6>
+                  <h2 class="mb-4 section-title text-white visible-regular">
+                    Adaptable <br />Solutions for
+                    <span class="text-green visible-regular">Anytime</span>
+                  </h2>
+                  <p class="visible-light text-gray">
+                    Tech got you in a tangle? We untangle the mess and build
+                    your digital castle. Explore a complete range of services
+                    tailored to elevate your business.
+                  </p>
+                  <a href="service.html" class="btn mt-3 py-3">More Services</a>
+                </div>
+
+                <div class="feats col-lg-7 pt-lg-0" id="main-feat">
+                  <div class="left-feat feat">
+                    <h5>Speed, Smartand Secure</h5>
+                    <p>
+                      Our technical team made N-me for highspeed access to
+                      needers, high secured about client dataand smartest
+                      display for the app.
+                    </p>
+                  </div>
+                  <div class="left-feat feat">
+                    <h5>Excellent Reviews</h5>
+                    <p>
+                      We heard and read lots of high voltage reviews from
+                      national and international famous techies. It helps us to
+                      grow our confidence level.
+                    </p>
+                  </div>
+                  <div class="left-feat feat">
+                    <h5>Friendly Technology</h5>
+                    <p>
+                      The N-Me app provides friendly technology and easy
+                      processing, so even normal people can access so easily.
+                    </p>
+                  </div>
+                  <div class="left-feat feat" style="margin-right: -33px">
+                    <h5>Best Team</h5>
+                    <p>
+                      Best and well qualified team behind the project. The
+                      strength of togetherness made N-Me fabulous.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Services End -->
+      </section>
+      <section class="news section-padding text-center visible-light" id="news">
+        <h1>
+          Shape your future by connecting <span class="text-gray">with us</span>
+        </h1>
+
+        <p class="text-center">You didn't come this far to stop</p>
+
+        <a href="contact.html" class="text-light">Connect</a>
+      </section>
+    </main>
+
+    <!-- Footer Start -->
+    <div
+      class="container-fluid footer-bg text-white-50 footer wow fadeIn"
+      data-wow-delay="0.1s"
+    >
+      <div class="container py-5">
+        <div class="row g-5">
+          <div class="col-lg-3 col-md-6">
+            <h5 class="text-white mb-4">Company</h5>
+            <a class="btn btn-link text-white-50" href=""
+              >Hilite Business Park, Calicut</a
+            >
+            <a class="btn btn-link text-white-50" href=""
+              >Kochi, Thiruvananthapuram,</a
+            >
+            <a class="btn btn-link text-white-50" href=""
+              >Pondichery, Coimbatore</a
+            >
+            <a class="btn btn-link text-white-50" href="">Chennai, Bengaluru</a>
+            <a class="btn btn-link text-white-50" href="">Dubai, Qatar, Oman</a>
+          </div>
+          <div class="col-lg-3 col-md-6">
+            <h5 class="text-white mb-4">Quick Links</h5>
+            <a class="btn btn-link text-white-50" href="about.html">About Us</a>
+            <a class="btn btn-link text-white-50" href="contact.html"
+              >Contact Us</a
+            >
+            <a class="btn btn-link text-white-50" href="service.html"
+              >Our Services</a
+            >
+            <a class="btn btn-link text-white-50" href="career.html">Careers</a>
+            <a class="btn btn-link text-white-50" href="">Terms & Condition</a>
+          </div>
+          <div class="col-lg-3 col-md-6">
+            <h5 class="text-white mb-4">Contact</h5>
+            <p class="mb-2">
+              <i class="fa fa-map-marker-alt me-3"></i>Hilite Business Park,
+              Calicut
+            </p>
+            <p class="mb-2 mt-3">
+              <i class="fa fa-phone-alt me-3"></i>+91 9072919991
+            </p>
+            <p class="mb-2">
+              <i class="fa fa-envelope me-3"></i>nmesmartech@gmail.com
+            </p>
+            <div class="d-flex pt-2">
+              <a class="btn btn-outline-light btn-social" href="https://www.instagram.com/nme_app/?hl=en"
+                ><i class="fab fa-instagram"></i
+              ></a>
+              <a class="btn btn-outline-light btn-social" href="https://www.facebook.com/profile.php?id=100076151802998"
+                ><i class="fab fa-facebook-f"></i
+              ></a>
+              <a class="btn btn-outline-light btn-social" href="https://www.youtube.com/@nme-app"
+                ><i class="fab fa-youtube"></i
+              ></a>
+              <a class="btn btn-outline-light btn-social" href="https://www.linkedin.com/company/n-me-app/posts/?feedView=all"
+                ><i class="fab fa-linkedin-in"></i
+              ></a>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6">
+            <h5 class="text-white mb-4">Services</h5>
+            <a class="btn btn-link text-white-50" href="service.html"
+              >Website</a
+            >
+            <a class="btn btn-link text-white-50" href="service.html"
+              >Designing</a
+            >
+            <a class="btn btn-link text-white-50" href="service.html"
+              >Branding</a
+            >
+            <a class="btn btn-link text-white-50" href="service.html">Digital marketing</a>
+            <a class="btn btn-link text-white-50" href="service.html">Software</a>
+          </div>
+        </div>
+      </div>
+      <div class="container">
+        <div class="copyright">
+          <div class="row">
+            <div class="col-md-12 last-footer">
+              ©2024 NME SMARTECH | <span> <a href="#">Privacy</a></span
+              >/ <span><a href="index.html">Home</a></span>
+              <span><a href="career.html">Careers</a></span>
+              <span><a href="about.html">About</a></span>
+              <span><a href="contact.html">Contact</a></span>
+              <span><a href="service.html">Services</a></span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Footer End -->
+
+    <!-- JAVASCRIPT FILES -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/jquery.sticky.js"></script>
+    <script src="js/aos.js"></script>
+    <script src="js/jquery.magnific-popup.min.js"></script>
+    <script src="js/magnific-popup-options.js"></script>
+    <script src="js/custom.js"></script>
+    <script src="js/scrollspy.min.js"></script>
+    <script src="js/index.js"></script>
+  </body>
+</html>
